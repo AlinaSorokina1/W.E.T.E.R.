@@ -1,0 +1,157 @@
+.NewsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(17, 17, 17, 0.3);
+  color: #fff;
+  padding-right: 20px;
+
+  .news__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.48);
+    width: 270px;
+    height: 140px;
+  }
+
+  .newsDate {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 7px;
+
+    .date,
+    .time {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.05em;
+      text-align: left;
+      margin: 0 10px 0 10px;
+    }
+  }
+
+  .newsInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+
+    .newsTitle {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14.52px;
+      text-align: left;
+      position: absolute;
+      left: 150px;
+      top: 20px;
+      width: 97px;
+    }
+
+    img {
+      width: 130px;
+      height: 79px;
+      margin-left: 30px;
+      position: absolute;
+      top: 5px;
+      left: -20px;
+      z-index: 2;
+    }
+  }
+
+  .addInfoNews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .reactionsNews {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .reactionViewItem,
+    .reactionLikeItem {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+    }
+
+    .viewIcon,
+    .likeIcon {
+      width: 14px;
+      height: 10px;
+      margin-right: 3px;
+      position: relative;
+    }
+
+    span {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14.52px;
+      letter-spacing: -0.05em;
+      text-align: left;
+      color: rgba(206, 207, 219, 1);
+    }
+  }
+  .linkNews {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 10px 10px 0;
+
+    a {
+      margin-right: 5px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14.52px;
+      letter-spacing: -0.05em;
+      text-align: right;
+      color: rgba(206, 207, 219, 1);
+      margin-right: 5px;
+    }
+
+    img {
+      width: 7px;
+      height: 20px;
+      position: relative;
+    }
+  }
+
+  .navNews {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    justify-content: space-between;
+
+    img {
+      margin-right: 5px;
+      width: 7px;
+      height: 10px;
+      position: relative;
+      z-index: 2;
+    }
+
+    span {
+      position: relative;
+      margin-right: 10px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: -0.02em;
+      text-align: right;
+    }
+    .separator {
+      height: 14px;
+      width: 2px;
+      background-color: rgba(255, 255, 255, 1);
+      margin: 0 10px;
+      opacity: 48%;
+    }
+  }
+}

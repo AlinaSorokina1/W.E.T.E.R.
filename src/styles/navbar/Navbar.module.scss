@@ -1,0 +1,145 @@
+
+.navbar__container {
+  width: 100vw;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10; 
+
+  .burgerMenu {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 14px;
+  }
+
+  .navMainMenu {
+    display: flex;
+    list-style: none;
+    margin-left: 25vw;
+    padding: 0;
+
+    li {
+      margin-right: 5.2vw;
+
+      a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.04vw;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.5;
+        white-space: nowrap;
+
+        &:hover {
+          color: #ccc;
+        }
+      }
+    }
+  }
+
+  .navSocialLinks {
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-right: 1vw;
+
+        a {
+          display: block;
+          width: 24px;
+          height: 24px;
+
+          img {
+            height: 1.51vw;
+              width: 1.51vw;
+          }
+        }
+      }
+    }
+  }
+
+  .navLanguageSelector {
+    color: #fff;
+      display: flex;
+      align-items: center;
+      font-size: 2.5vh;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.05em;
+      text-align: center;
+      padding-right: 20px;
+  }
+}
+
+
+.sidebar__container {
+  position: fixed;
+  top: 0; 
+  left: -100%; 
+  width: 50%; 
+  height: 100%; 
+  background-color: black;
+  z-index: 5;
+  transition: left 0.3s ease-in-out; 
+
+  &.active {
+    left: 0; 
+  }
+
+  .navMainMenu,
+  .navSocialLinks {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 100px;
+
+    li {
+      margin-bottom: 5px; 
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          color: #ccc;
+        }
+      }
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar__container {
+    height: calc(70px + (80 - 70) * ((100vw - 320px) / (1920 - 320)));
+
+    .navMainMenu,
+    .navSocialLinks {
+      display: none; 
+    }
+
+    .burgerMenu {
+      display: flex;
+      margin-left: 20px;
+    }
+  }
+
+  .navLanguageSelector {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+}

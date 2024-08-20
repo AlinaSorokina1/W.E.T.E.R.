@@ -1,0 +1,37 @@
+
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_504_31)">
+<mask id="mask0_504_31" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="4" width="24" height="16">
+<path d="M23 4H1C0.447715 4 0 4.44772 0 5V19C0 19.5523 0.447715 20 1 20H23C23.5523 20 24 19.5523 24 19V5C24 4.44772 23.5523 4 23 4Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_504_31)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3H24V21H0V3Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3H7.99875V21H0V3Z" fill="#00267F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.001 3H23.9997V21H16.001V3Z" fill="#F31830"/>
+</g>
+<g clip-path="url(#clip1_504_31)">
+<path d="M16 4H0V20H24V4H16Z" fill="white"/>
+<path d="M0 4H7.99983V20.0002H0V4Z" fill="#6DA544"/>
+<path d="M16 4H23.9998V20.0002H16V4Z" fill="#D80027"/>
+</g>
+<g clip-path="url(#clip2_504_31)">
+<path d="M0 4.01123H23.9532V20.0112H0V4.01123Z" fill="white"/>
+<path d="M0 4.01123H23.9532V8.2779H0V4.01123ZM0 15.7446H23.9532V20.0112H0V15.7446Z" fill="#D03433"/>
+<path d="M0 8.26855H23.9532V15.7539H0V8.26855Z" fill="#FBCA46"/>
+<path d="M8.30371 11.478H9.3683V12.0114H8.30371V11.478V11.478Z" fill="white"/>
+<path d="M7.66512 13.0777C7.66512 13.3977 7.9845 13.611 8.30387 13.611C8.62325 13.611 8.94263 13.3977 8.94263 13.0777L9.04909 11.4777H7.55866L7.66512 13.0777V13.0777ZM7.02637 11.4777C7.02637 11.1577 7.23928 10.9443 7.4522 10.9443H9.04909C9.36846 10.9443 9.58138 11.1577 9.58138 11.371V11.4777L9.47492 13.0777C9.36846 13.7177 8.94263 14.1443 8.30387 14.1443C7.66512 14.1443 7.23928 13.7177 7.13283 13.0777L7.02637 11.4777Z" fill="#A41517"/>
+<path d="M7.23897 12.0114H9.36815V12.5447H8.83586L8.30356 13.6114L7.77127 12.5447H7.23897V12.0114V12.0114ZM5.64209 10.4114H6.70668V14.1447H5.64209V10.4114ZM9.90044 10.4114H10.965V14.1447H9.90044V10.4114ZM7.23897 9.87806C7.23897 9.55806 7.45189 9.34473 7.77127 9.34473H8.83586C9.15523 9.34473 9.36815 9.55806 9.36815 9.87806V10.0914C9.36815 10.3047 9.26169 10.4114 9.04877 10.4114H7.45189C7.34543 10.4114 7.23897 10.3047 7.23897 10.1981V9.87806V9.87806Z" fill="#A41517"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_504_31">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+<clipPath id="clip1_504_31">
+<rect y="4" width="24" height="16" rx="1" fill="white"/>
+</clipPath>
+<clipPath id="clip2_504_31">
+<rect y="4" width="24" height="16" rx="1" fill="white"/>
+</clipPath>
+</defs>
+</svg>
